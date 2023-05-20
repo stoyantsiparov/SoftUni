@@ -1,7 +1,7 @@
 # SoftUni
 ## Career path with C#
 
-<img align="right" alt="SoftUni" width="1000" src = "https://github.com/stoyantsiparov/SoftUni/assets/133793181/fc07c166-9f9e-4b80-bb1e-413c744e4960">
+<img align="right" alt="SoftUni" width="1000" src = "https://github.com/stoyantsiparov/SoftUni/assets/133793181/848ee8c4-034f-4cec-b34c-f8956b9ff989">
 
 
 <h2> Certificates </h2>
