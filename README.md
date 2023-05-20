@@ -11,7 +11,6 @@ Career path with C#
 
 <tr>
   <th> C# </th>
-  <th> JS Front-End </th>
 </tr>
 
 <tr>
