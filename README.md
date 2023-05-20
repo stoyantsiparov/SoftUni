@@ -1,10 +1,9 @@
 # SoftUni
 Career path with C#
 
+<h2> Certificates </h2>
 
 ---
-
-<h2> Certificates </h2>
 
 <table align="left">
   
