@@ -18,9 +18,8 @@ Career path with C#
 
 | **Course**                                                 | **Link**                                                                 |
 |------------------------------------------------------------|--------------------------------------------------------------------------|
-| <a href="https://softuni.bg/trainings/3620/programming-basics-with-csharp-january-2022#lesson-36462" > Programming Basics with C# </a>                                                                                          |<a href="https://softuni.bg/certificates/details/170390/aae80e3d">Link</a>|                          
-| <a href="https://softuni.bg/trainings/4094/programming-fundamentals-with-csharp-may-2023"> Technology Fundamentals with C# </a>                                                                                                             | <!-- <a href=""> Link</a> --> Incoming|
-| <a href=""> C# Advanced </a>                                          | <!-- <a href=""> Link</a> --> Incoming|
-| <a href=""> C# OOP </a>                                               | <!-- <a href=""> Link</a> --> Incoming|
-| <a href=""> C# Web Basics </a>                                        | <!-- <a href=""> Link</a> --> Incoming|
+| <a href="https://softuni.bg/courses/programming-basics" > Programming Basics with C# </a>                                                                                                                                        |<a href="https://softuni.bg/certificates/details/170390/aae80e3d">Link</a>|                          
+| <a href="https://softuni.bg/courses/programming-fundamentals-csharp-java-js-python"> Technology Fundamentals with C# </a>                                                                                                        | <!-- <a href=""> Link</a> --> Incoming|
+| <a href="https://softuni.bg/courses/csharp-advanced"> C# Advanced </a>                                                                                                                                                          | <!-- <a href=""> Link</a> --> Incoming|
+| <a href="https://softuni.bg/courses/c-sharp-oop"> C# OOP </a>                                                                                                                                                                    | <!-- <a href=""> Link</a> --> Incoming|
 </td>
