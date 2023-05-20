@@ -1,8 +1,7 @@
 # SoftUni
 ## Career path with C#
 
-<a href="https://softuni.bg/trainings/courses" rel="Courses"> ![SoftUni logo][logo] </a>
-[logo]: https://cdn.discordapp.com/attachments/979101848361377914/1077188522320072704/SoftUni-Logo-Flat.png "Logo Title Text 2"
+
 
 <h2> Certificates </h2>
 
