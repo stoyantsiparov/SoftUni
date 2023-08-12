@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. NxN Matrix", "07. NxN Matrix\07. NxN Matrix.csproj", "{60C5855C-5206-47A1-AA3B-2DD383B97FC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60C5855C-5206-47A1-AA3B-2DD383B97FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C5855C-5206-47A1-AA3B-2DD383B97FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C5855C-5206-47A1-AA3B-2DD383B97FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C5855C-5206-47A1-AA3B-2DD383B97FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2D82408-8FC7-4465-9D5D-52ED70E97ECD}
+	EndGlobalSection
+EndGlobal
