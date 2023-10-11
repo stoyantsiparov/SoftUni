@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Sets of Elements", "02. Sets of Elements\02. Sets of Elements.csproj", "{C922BCED-E82A-4C76-973C-E00EC3EFF24D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C922BCED-E82A-4C76-973C-E00EC3EFF24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C922BCED-E82A-4C76-973C-E00EC3EFF24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C922BCED-E82A-4C76-973C-E00EC3EFF24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C922BCED-E82A-4C76-973C-E00EC3EFF24D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D135CCB1-ADFA-48E6-A96A-9157A12B691B}
+	EndGlobalSection
+EndGlobal

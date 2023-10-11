@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Copy Binary File", "03. Copy Binary File\03. Copy Binary File.csproj", "{B72A9C75-18FC-4EFA-A35E-D562925AD449}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B72A9C75-18FC-4EFA-A35E-D562925AD449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72A9C75-18FC-4EFA-A35E-D562925AD449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72A9C75-18FC-4EFA-A35E-D562925AD449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72A9C75-18FC-4EFA-A35E-D562925AD449}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {402DCD5B-3AE7-40FC-B1BD-7704505923A5}
+	EndGlobalSection
+EndGlobal
