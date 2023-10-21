@@ -1,97 +1,93 @@
-﻿int[] dimensions = Console.ReadLine()
-    .Split(' ', StringSplitOptions.RemoveEmptyEntries)
-    .Select(int.Parse)
-    .ToArray();
+﻿int[] size = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
 
-string[,] matrix = new string[dimensions[0], dimensions[1]];
+int rows = size[0];
+int cols = size[1];
 
-int blindRow = -1;
-int blindCol = -1;
+string[,] matrix = new string[rows, cols];
 
-int opponentsTouched = 0;
+int blindManRow = 0;
+int blindManCol = 0;
+
+int touched = 0;
 int moves = 0;
 
-for (int row = 0; row < dimensions[0]; row++)
+for (int row = 0; row < rows; row++)
 {
-    string[] newRow = Console.ReadLine()
-        .Split(" ", StringSplitOptions.RemoveEmptyEntries);
-
-    for (int col = 0; col < dimensions[1]; col++)
+    string[] currentRow = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
+    for (int col = 0; col < cols; col++)
     {
-        matrix[row, col] = newRow[col];
+        matrix[row, col] = currentRow[col];
+
         if (matrix[row, col] == "B")
         {
-            blindRow = row;
-            blindCol = col;
-            matrix[row, col] = "-";
+            blindManRow = row;
+            blindManCol = col;
+
+            matrix[blindManRow, blindManCol] = "-";
         }
     }
 }
 
-string direction;
-while ((direction = Console.ReadLine()) != "Finish")
+string command;
+
+while ((command = Console.ReadLine()) != "Finish")
 {
-    if ((direction == "left" && blindCol == 0) ||
-        (direction == "right" && blindCol == matrix.GetLength(1) - 1) ||
-        (direction == "up" && blindRow == 0) ||
-        (direction == "down" && blindRow == matrix.GetLength(0) - 1))
+    if (command == "up")
     {
-        continue;
+        if (blindManRow == 0)
+        {
+            continue;
+        }
+        if (matrix[blindManRow - 1, blindManCol] == "O")
+        {
+            continue;
+        }
+        blindManRow--;
     }
 
-    switch (direction)
+    else if (command == "down")
     {
-        case "left":
-            if (matrix[blindRow, blindCol - 1] == "O")
-            {
-                continue;
-            }
-            break;
-        case "right":
-            if (matrix[blindRow, blindCol + 1] == "O")
-            {
-                continue;
-            }
-            break;
-        case "up":
-            if (matrix[blindRow - 1, blindCol] == "O")
-            {
-                continue;
-            }
-            break;
-        case "down":
-            if (matrix[blindRow + 1, blindCol] == "O")
-            {
-                continue;
-            }
-            break;
-
+        if (blindManRow == rows - 1)
+        {
+            continue;
+        }
+        if (matrix[blindManRow + 1, blindManCol] == "O")
+        {
+            continue;
+        }
+        blindManRow++;
     }
-    
+    else if (command == "right")
+    {
+        if (blindManCol == cols - 1)
+        {
+            continue;
+        }
+        if (matrix[blindManRow, blindManCol + 1] == "O")
+        {
+            continue;
+        }
+        blindManCol++;
+    }
+    else if (command == "left")
+    {
+        if (blindManCol == 0)
+        {
+            continue;
+        }
+        if (matrix[blindManRow, blindManCol - 1] == "O")
+        {
+            continue;
+        }
+        blindManCol--;
+    }
     moves++;
-    switch (direction)
+    if (matrix[blindManRow, blindManCol] == "P")
     {
-        case "left":
-            blindCol--;
-            break;
-        case "right":
-            blindCol++;
-            break;
-        case "up":
-            blindRow--;
-            break;
-        case "down":
-            blindRow++;
-            break;
+        touched++;
+        matrix[blindManRow, blindManCol] = "-";
 
-    }
-
-    if (matrix[blindRow, blindCol] == "P")
-    {
-        opponentsTouched++;
-        matrix[blindRow, blindCol] = "-";
-
-        if (opponentsTouched == 3)
+        if (touched == 3)
         {
             break;
         }
@@ -99,4 +95,4 @@ while ((direction = Console.ReadLine()) != "Finish")
 }
 
 Console.WriteLine("Game over!");
-Console.WriteLine($"Touched opponents: {opponentsTouched} Moves made: {moves}");
+Console.WriteLine($"Touched opponents: {touched} Moves made: {moves}");
