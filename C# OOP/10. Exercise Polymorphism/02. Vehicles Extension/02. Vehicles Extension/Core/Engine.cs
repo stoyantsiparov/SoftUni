@@ -1,10 +1,9 @@
 ﻿using Vehicles.Core.Interfaces;
 using Vehicles.Factories.Interfaces;
 using Vehicles.IO.Interfaces;
-using Vehicles.Models;
 using Vehicles.Models.Interfaces;
 
-namespace Vehicles.Core;
+namespace VehiclesExtension.Core;
 
 public class Engine : IEngine
 {
@@ -27,8 +26,9 @@ public class Engine : IEngine
     public void Run()
     {
         // Довабям ново превозно средство в колекцията {vehicles} с метода {CreateVehicle} го създавам
-        vehicles.Add(CreateVehicle());
-        vehicles.Add(CreateVehicle());
+        vehicles.Add(CreateVehicle()); //add Car
+        vehicles.Add(CreateVehicle()); //add Truck
+        vehicles.Add(CreateVehicle()); //add Bus
 
         int commandCount = int.Parse(reader.ReadLine());
 
@@ -57,10 +57,10 @@ public class Engine : IEngine
             .Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
         // Създавам ново превозно средство от тип {IVehicle}
-        // {IVehicleFactory} приема 3 парамета -> тип на превозно средство, гориво в резервуара и колко гориво харчи за км. (а метода {Create} го създава)
-        IVehicle vehicle = vehicleFactory.Create(tokens[0], double.Parse(tokens[1]), double.Parse(tokens[2]));
+        // {IVehicleFactory} приема 4 парамета -> тип на превозно средство, гориво в резервуара, колко гориво харчи за км. и капацитет на резервуара (а метода {Create} го създава)
+        IVehicle vehicle = vehicleFactory.Create(tokens[0], double.Parse(tokens[1]), double.Parse(tokens[2]), double.Parse(tokens[3]));
 
-       return vehicle;
+        return vehicle;
     }
 
     // Създавам метод, в който изпълнявам командите дадени ми от конзолата ({"Drive"} и {"Refuel"})
@@ -84,6 +84,11 @@ public class Engine : IEngine
         {
             double distance = double.Parse(commandTokens[2]);
             writer.WriteLine(vehicle.Drive(distance));
+        }
+        else if (command == "DriveEmpty")
+        {
+            double distance = double.Parse(commandTokens[2]);
+            writer.WriteLine(vehicle.Drive(distance, false));
         }
         else if (command == "Refuel")
         {

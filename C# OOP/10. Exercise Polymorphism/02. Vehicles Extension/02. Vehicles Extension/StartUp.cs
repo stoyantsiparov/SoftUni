@@ -1,9 +1,9 @@
-﻿using Vehicles.Core;
-using Vehicles.Core.Interfaces;
+﻿using Vehicles.Core.Interfaces;
 using Vehicles.Factories;
 using Vehicles.Factories.Interfaces;
 using Vehicles.IO;
 using Vehicles.IO.Interfaces;
+using VehiclesExtension.Core;
 
 IReader reader = new ConsoleReader();
 IWriter writer = new ConsoleWriter();
