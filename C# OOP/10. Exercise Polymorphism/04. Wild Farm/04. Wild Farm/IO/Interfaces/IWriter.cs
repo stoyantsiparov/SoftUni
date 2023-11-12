@@ -2,5 +2,5 @@
 
 public interface IWriter
 {
-    void WriteLine(string message);
+    void WriteLine(object obj);
 }
