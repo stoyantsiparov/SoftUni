@@ -5,4 +5,10 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Attributes\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+
 </Project>
