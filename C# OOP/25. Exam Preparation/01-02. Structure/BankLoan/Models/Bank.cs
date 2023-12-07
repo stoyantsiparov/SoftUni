@@ -81,7 +81,7 @@ public abstract class Bank : IBank
 
             foreach (var client in clients)
             {
-                sb.AppendLine(string.Join(" ", names));
+                sb.AppendLine(string.Join(", ", names));
             }
         }
 

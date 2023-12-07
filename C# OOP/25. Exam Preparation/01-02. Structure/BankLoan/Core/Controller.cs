@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
+using BankLoan.Core.Contracts;
 using BankLoan.Models;
 using BankLoan.Models.Contracts;
 using BankLoan.Repositories;
 using BankLoan.Utilities.Messages;
 
-namespace BankLoan.Core.Contracts;
+namespace BankLoan.Core;
 
 public class Controller : IController
 {
@@ -105,8 +106,8 @@ public class Controller : IController
 
         var bank = banks.FirstModel(bankName);
 
-        if ((bank.GetType().Name == "BranchBank" && clientTypeName != "Student") ||
-            (bank.GetType().Name == "CentralBank" && clientTypeName != "Adult"))
+        if (bank.GetType().Name == "BranchBank" && clientTypeName != "Student" ||
+            bank.GetType().Name == "CentralBank" && clientTypeName != "Adult")
         {
             //return "Unsuitable bank.";
             return string.Format(OutputMessages.UnsuitableBank);
