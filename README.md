@@ -21,12 +21,8 @@
 
 | **Course**                                                 | **Link**                                                                 |
 |------------------------------------------------------------|--------------------------------------------------------------------------|
-| <a href="https://softuni.bg/courses/programming-basics" > Programming Basics with C# </a>                                                                                                                                        
-|<a href="https://softuni.bg/certificates/details/170390/aae80e3d">Link</a>|                          
-| <a href="https://softuni.bg/courses/programming-fundamentals-csharp-java-js-python"> Technology Fundamentals with C# </a>                                                                                                        
-|<a href="https://softuni.bg/certificates/details/179579/58509358">Link</a>|   
-| <a href="https://softuni.bg/courses/csharp-advanced"> C# Advanced </a>                                                                                                                                                           
-|<a href="https://softuni.bg/certificates/details/188349/1635f6e7">Link</a>|   
-| <a href="https://softuni.bg/courses/c-sharp-oop"> C# OOP </a>                                                                                                                                                                    
-|<a href="https://softuni.bg/certificates/details/195582/34667e15">Link</a>|  
+| <a href="https://softuni.bg/courses/programming-basics" > Programming Basics with C# </a>                                                                                                                                        |<a href="https://softuni.bg/certificates/details/170390/aae80e3d">Link</a>|                          
+| <a href="https://softuni.bg/courses/programming-fundamentals-csharp-java-js-python"> Technology Fundamentals with C# </a>                                                                                                        |<a href="https://softuni.bg/certificates/details/179579/58509358">Link</a>|   
+| <a href="https://softuni.bg/courses/csharp-advanced"> C# Advanced </a>                                                                                                                                                           |<a href="https://softuni.bg/certificates/details/188349/1635f6e7">Link</a>|   
+| <a href="https://softuni.bg/courses/c-sharp-oop"> C# OOP </a>                                                                                                                                                                    |<a href="https://softuni.bg/certificates/details/195582/34667e15">Link</a>| 
 </td>
