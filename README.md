@@ -1,5 +1,5 @@
 # SoftUni
-## Career path with C#
+## Career path with Programming Languages
 
 <img align="center" alt="SoftUni" width="600" src = "https://github.com/stoyantsiparov/SoftUni/assets/133793181/848ee8c4-034f-4cec-b34c-f8956b9ff989">
 
@@ -28,5 +28,3 @@
 | <a href="https://softuni.bg/courses/html-and-css" > HTML & CSS </a>                                                                                                                                                              |<a href="INCOMING">INCOMING</a>|                          
 | <a href="https://softuni.bg/courses/js-front-end"> JS Front-End </a>                                                                                                                                                             |<a href="INCOMING">INCOMING</a>|  
 </td>
-
-
