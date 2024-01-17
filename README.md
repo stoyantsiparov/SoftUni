@@ -8,7 +8,7 @@
 
 ---
 
-<table align="left">
+<table align="center">
   
 <br/>
 
