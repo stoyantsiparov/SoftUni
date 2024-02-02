@@ -1,0 +1,28 @@
+body {
+    width: 647px;
+    height: 676px;
+    margin: 0 auto;
+    background-color: #F9F7D0;
+    font-size: 22px;
+}
+
+header {
+    width: 647px;
+    background-color: #F3DCBC;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+main {
+    margin: 0 auto;
+    width: 647px;
+    background-color: #F9F7D0;
+}
+
+footer {
+    width: 647px;
+    background-color: #F3DCBC;
+    margin: 0 auto;
+    padding: 10px;
+}
