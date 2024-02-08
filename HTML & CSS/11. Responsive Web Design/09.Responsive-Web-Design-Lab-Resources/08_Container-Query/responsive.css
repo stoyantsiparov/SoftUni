@@ -4,6 +4,7 @@
 
 .post {
   container-type: inline-size;
+  container-name: post;
 }
 
 /* @container НЕ работи, ако няма това горе (.post) */

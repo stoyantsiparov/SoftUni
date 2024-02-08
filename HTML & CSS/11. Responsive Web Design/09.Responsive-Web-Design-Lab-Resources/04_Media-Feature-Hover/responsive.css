@@ -1,6 +1,6 @@
 @media (hover: hover) {
-    code:hover {
-      color: white;
-      background: black;
-    }
+  code:hover {
+    color: white;
+    background: black;
   }
+}
