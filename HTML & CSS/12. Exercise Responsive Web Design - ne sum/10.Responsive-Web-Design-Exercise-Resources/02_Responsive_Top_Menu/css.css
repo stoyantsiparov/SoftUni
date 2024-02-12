@@ -1,0 +1,147 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    flex: auto;
+    padding: 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+}
+
+aside {
+    width: 100px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    margin-right: 10px;
+}
+
+aside ul {
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    aside {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    header,
+    footer {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    main {
+        margin-right: 10px;
+    }
+}
+
+aside {
+    width: 100px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    flex-grow: auto;
+    width: auto;
+    margin-left: 5px;
+}
+
+aside ul {
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    padding-right: 40px;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+aside a {
+    text-decoration: none;
+    color: rgb(76, 132, 236);
+}
+
+/* Кода за 2ра задача */
+
+header a {
+    text-decoration: none;
+    display: block;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 30px;
+    margin-left: 50px;
+    color: rgb(76, 132, 236);
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 500px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 150px;
+    }
+}
