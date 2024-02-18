@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/1.5 "Karla";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cormorant Infant";
+    font-size: 90px;
+}
+
+body {
+    background: #F8F0E9;
+}
+
+.header-part {
+    background-image: url(images/poster.jpg);
+    min-height: 700px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+.logo a img {
+    width: 90px;
+    height: auto;
+    margin: 20px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: justify;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+a:last-child {
+    margin-right: 50px;
+}
+
+.text-part {
+    margin-top: 150px;
+}
+
+.big-text h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.white-text {
+    color: #fff;
+    text-align: center;
+}
+
+.white {
+    margin: 0 auto;
+    width: 900px;
+    text-align: left;
+}
+
+.white p {
+    margin: 40px 30px 50px 0px;
+}
+
+.white h2 {
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 2em;
+    font-style: italic;
+}
+
+.pink {
+    background: #E14747;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.pink h3 {
+    font-family: "Karla";
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.white-2 {
+    margin: 0 auto;
+    width: 620px;
+    text-align: left;
+    text-align: center;
+}
+
+.white-2 h2 {
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 1em;
+}
+
+.white-2 img {
+    height: 470px;
+    width: 620px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.white-2 p {
+    width: 620px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#button1 {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px 20px;
+    margin-top: 50px;
+    float: left;
+}
+
+#button2 {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px 20px;
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+.pink-2 {
+    background: #E14747;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pink-2 h2 {
+    font-size: 70px;
+    margin-bottom: 1em;
+}
+
+.container-2 {
+    width: 850px;
+    margin: 0 auto;
+}
+
+.yellow-button {
+    background-color: #FAD87A;
+    color: black;
+    border-radius: 20px;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+
+.gray {
+    background: #352B2A;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-gray-icon {
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.container-gray {
+    width: 500px;
+    text-align: left;
+    margin-left: 6em;
+}
+
+.container-gray .copyright {
+    margin-top: 1em;
+    color: #635450;
+}

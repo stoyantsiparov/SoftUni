@@ -1,0 +1,133 @@
+/* Responsive CSS for viewport width <= 600px */
+@media (max-width: 600px) {
+
+    /* Adjustments for the header */
+
+    .tm-welcome-section p {
+        font-size: 15px;
+    }
+
+    .tm-header-inner {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-top: -150px;
+        padding-top: 0;
+    }
+
+    .tm-site-logo {
+        margin-right: 0;
+        width: 70px;
+    }
+
+    .tm-site-title {
+        margin-left: 1em;
+        font-size: 1.5em;
+    }
+
+    .tm-site-description {
+        font-size: 0.8em;
+    }
+
+    .tm-nav {
+        margin-top: 20px;
+    }
+
+    .tm-nav li {
+        font-size: 13px;
+    }
+
+    .tm-paging-link {
+        font-size: 15px;
+        padding: 8px 20px;
+    }
+
+    .col-12.text-center.tm-section-title {
+        font-size: 2em;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* Adjustments for the main section */
+    .tm-welcome-section {
+        margin: 30px auto;
+        max-width: 90%;
+    }
+
+    .tm-section-title {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .tm-gallery {
+        margin-left: 70px;
+        margin-right: 50px;
+    }
+
+    .tm-gallery-title {
+        font-size: 1.3em;
+        text-align: left;
+        padding-left: 1.5em;
+        margin-bottom: 0;
+    }
+
+    .tm-gallery-description {
+        font-size: 0.7em;
+    }
+
+    .tm-gallery-item:last-child .tm-gallery-price {
+        margin-bottom: 0;
+    }
+
+    .tm-gallery-page {
+        margin: 0;
+    }
+
+    .tm-gallery img {
+        margin-bottom: 5px;
+        margin-top: -20px;
+    }
+
+    .tm-gallery-item {
+        max-width: 100%;
+    }
+
+    .tm-gallery-img {
+        margin-bottom: 10px;
+    }
+
+    /* Adjustments for the call to action section */
+    .tm-cta-section {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .tm-description-figure {
+        width: 100%;
+        margin-bottom: -20px;
+    }
+
+    .tm-description-box {
+        max-width: 100%;
+        font-size: 15px;
+    }
+
+    .tm-description-box .tm-gallery-title {
+        padding-left: 0;
+        padding-bottom: 5px;
+    }
+
+    .tm-btn-default {
+        padding: 8px 25px;
+    }
+
+    .tm-footer {
+        margin-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .tm-footer p {
+        font-size: 16px;
+    }
+}
